@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SMA Negeri 4 Ketapang</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .sekolah-show img {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+        }
+
+        span {
+            font-size: 15px;
+        }
+
+        .box1 {
+            padding-top: 20px;
+        }
+
+        .box2 {
+            padding-top: 20px 0px;
+            padding-bottom: 80px;
+        }
+
+        .text {
+            margin: 20px 0px;
+        }
+
+        .fa {
+            color: #4183D7;
+        }
+
+        .footer {
+            background-color: black;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+        }
+
+        @media(min-width: 600px) {
+
+            .box-part {
+                background: #FFF;
+                border-radius: 0;
+                padding: 60px 10px;
+                margin: 30px 0px;
+            }
+
+            .container-fluid {
+                padding-bottom: 100px;
+                padding-top: 50px
+            }
+
+            hr {
+                padding-bottom: 10px;
+
+            }
+
+            .gambar-padding {
+                padding-bottom: 180px;
+                padding-top: 180px;
+            }
+
+            .pelajari {
+
+                text-decoration: none;
+                color: #0062cc;
+                border-bottom: 2px solid #0062cc;
+
+            }
+
+        }
+
+        @media (max-width: 600px) {
+
+            .pelajari {
+
+                text-decoration: none;
+                color: #0062cc;
+                font-size: 15px;
+                border-bottom: 2px solid #0062cc;
+            }
+
+            .box1 {
+                padding-top: 3px;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            .btnku {
+                font-size: 15px;
+            }
+
+            hr {
+                padding-bottom: 2px;
+
+            }
+
+            .judul {
+                font-size: 18px;
+            }
+
+            .gambar-padding {
+                padding-bottom: 80px;
+                padding-top: 80px;
+            }
+
+            .fasilitas-padding {
+                padding-top: 30px;
+                padding-bottom: 50px;
+            }
+
+            .box-part {
+                background: rgb(255, 255, 255);
+                border-radius: 0;
+                padding: 30px 10px;
+                margin: 15px 0px;
+            }
+
+            .fa {
+                color: #4183D7;
+            }
+
+            .text {
+                margin: 20px 0px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .judul {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="img/4.1.png" width="30" height="30" class="d-inline-block align-top" alt=""> SMAN 4 Ketapang
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="#">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white" href="#">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="slide" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#slide" data-slide-to="0" class="active"></li>
+            <li data-target="#slide" data-slide-to="1"></li>
+            <li data-target="#slide" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/1.1.png" alt="caraousel1" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="img/2.1.png" alt="caraousel2" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="img/3.1.png" alt="caraousel3" width="1100" height="500">
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#slide" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slide" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="container-fluid fasilitas-padding" style="align-content: center;">
+        <h2 style="text-align: center;">FASILITAS SEKOLAH</h2>
+        <hr style="width: 50%;">
+        <div class="box1">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-hp col-sm-4 col-xs-4">
+
+                    <div class="box-part text-center">
+
+                        <i class="fa fa-building fa-3x" aria-hidden="true"></i>
+
+                        <div class="title">
+                            <h4 class="judul">Gedung</h4>
+                        </div>
+
+                        <div class="text">
+                            <span>Gedung yang tersedia dapat menunjang proses belajar siswa disekolah</span>
+                        </div>
+
+                        <a class="pelajari" href="#">Pelajari lebih lanjut</a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    <div class="box-part text-center">
+
+                        <i class="fa fa-futbol-o fa-3x" aria-hidden="true"></i>
+
+                        <div class="title">
+                            <h4 class="judul">Olahraga</h4>
+                        </div>
+
+                        <div class="text">
+                            <span>Fasilitas olahraga yang tersedia dapat digunakan oleh siswa saat pelajaran olahraga
+                                maupun ekskul</span>
+                        </div>
+
+                        <a class="pelajari" href="#">Pelajari lebih lanjut</a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    <div class="box-part text-center">
+
+                        <i class="fa fa-flask fa-3x" aria-hidden="true"></i>
+
+                        <div class="title">
+                            <h4 class="judul">Laboratorium</h4>
+                        </div>
+
+                        <div class="text">
+                            <span>Laboratorium yang tersedia digunakan siswa untuk praktikum mata pelajaran Biologi,
+                                Kimia, Fisika dan lain-lain</span>
+                        </div>
+
+                        <a class="pelajari" href="#">Pelajari lebih lanjut</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid gambar-padding" style="background-image: url(img/5.1.PNG);">
+        <div class="container" style="text-align: center; ">
+            <button type="button" class="btn btn-primary btn-lg">
+                <h4 class="btnku">LEBIH LANJUT TENTANG PROFILE SMA NEGERI 4 KETAPANG</h4>
+            </button>
+        </div>
+    </div>
+
+    <div class="box2">
+        <div class="container">
+            <h2 style="text-align: center; padding-bottom: 10px; padding-top: 40px;">KABAR TERBARU</h2>
+            <hr size="20px" style="padding-bottom: 20px;">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="box-part text-center">
+
+                        <i class="fa fa-info fa-3x" aria-hidden="true"></i>
+
+                        <div class="title">
+                            <h4 class="judul">Info Akademik</h4>
+                        </div>
+
+                        <div class="text">
+                            <span>Info penerimaan siswa-siswi baru tahun ajaran 2020-2021 SMAN 4 Ketapang akan dimulai
+                                pada pertengahan bulan Maret...</span>
+                        </div>
+
+                        <a class="pelajari" href="#">Lanjutkan Membaca</a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="box-part text-center">
+
+                        <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+
+                        <div class="title">
+                            <h4 class="judul">Prestasi</h4>
+                        </div>
+
+                        <div class="text">
+                            <span>Tim futsal putra SMAN 4 Ketapang berhasil membawa pulang piala bergilir futsal antar
+                                SMA sekota Ketapang...</span>
+                        </div>
+
+                        <a class="pelajari" href="#">Lanjutkan Membaca</a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="box-part text-center">
+
+                        <i class="fa fa-calendar fa-3x" aria-hidden="true"></i>
+
+                        <div class="title">
+                            <h4 class="judul">Acara</h4>
+                        </div>
+
+                        <div class="text">
+                            <span>Pada tanggal 20 Maret 2020 akan diadakan perkemahan jumat, sabtu & minggu
+                                (Perjusami)...</span>
+                        </div>
+
+                        <a class="pelajari" href="#">Lanjutkan Membaca</a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="box-part text-center">
+
+                        <i class="fa fa-bullhorn fa-3x" aria-hidden="true"></i>
+
+                        <div class="title">
+                            <h4 class="judul">Pengumuman</h4>
+                        </div>
+
+                        <div class="text">
+                            <span>Menanggapi surat edaran tentang darurat wabah virus corona di kota Ketapang, kepala
+                                sekolah SMAN 4 Ketapang menghimbau...</span>
+                        </div>
+
+                        <a class="pelajari" href="#">Lanjutkan Membaca</a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="box-part text-center">
+
+                        <i class="fa fa-medkit fa-3x" aria-hidden="true"></i>
+
+                        <div class="title">
+                            <h4 class="judul">Kesehatan</h4>
+                        </div>
+
+                        <div class="text">
+                            <span>Kepala sekolah SMAN 4 Ketapang menghimbau kepada seluruh siswa-siswi untuk tidak panik
+                                terhadap wabah virus corona...</span>
+                        </div>
+
+                        <a class="pelajari" href="#">Lanjutkan Membaca</a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="box-part text-center">
+
+                        <i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i>
+
+                        <div class="title">
+                            <h4 class="judul">Kerja Sama</h4>
+                        </div>
+
+                        <div class="text">
+                            <span>SMAN 4 Ketapang menjalin hubungan kerjasama dengan beberapa perguruan tinggi di kota
+                                Ketapang...</span>
+                        </div>
+
+                        <a class="pelajari" href="#">Lanjutkan Membaca</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" style="color: white">© 2020 Copyright:
+            <a class="pelajari" href="#">www.sman4ktp.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>
